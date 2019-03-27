@@ -1,12 +1,18 @@
-# Readme
+# MatchTags
 
 This plugin highlights the matching HTML tag when the cursor is
 positioned on a tag. It works in much the same way as the MatchParen
-plugin.
+plugin. This is a fork of <https://github.com/gregsexton/MatchTag>.
 
-It was inspired by this question <http://stackoverflow.com/q/8168320/20388>.
+## Installation
 
-The latest 'release' is available on [vim.org](http://www.vim.org/scripts/script.php?script_id=3818).
+If you have Vim 8 or NewVim, you can simply clone the plugin repository
+into the appropriate directory:
+
+```bash
+$ cd ~/<plugin directory>
+$ git clone https://github.com/matchtags/MatchTags.git
+```
 
 ## Other file types
 
