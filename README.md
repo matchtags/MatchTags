@@ -1,5 +1,11 @@
 # MatchTags
 
+[![Lang Badge][lang]][MatchTags]
+[![License Badge][license badge]][LICENSE.txt]
+[![Maintain Badge][maintain badge]][MatchTags]
+
+## Overview
+
 This plugin highlights the matching HTML tag when the cursor is
 positioned on a tag. It works in much the same way as the MatchParen
 plugin. This is a fork of <https://github.com/gregsexton/MatchTag>.
@@ -13,6 +19,10 @@ the appropriate directory:
 $ cd ~/<plugin directory>
 $ git clone https://github.com/matchtags/MatchTags.git
 ```
+
+## Features
+
+- 100% Vimscript
 
 ## Other file types
 
@@ -30,12 +40,20 @@ Thanks to [ithaca.arpinum.org](http://ithaca.arpinum.org/) for this screenshot.
 ![Screenshot of MatchTag](http://www.gregsexton.org/images/matchtag/matchtag.jpg)
 
 
+## Contributing
+
+To contribute, please fork the repository, create a feature branch, and then
+submit a [pull request][].
+
+
 ## License
 
 [MatchTags][] is released under the MIT license. Please see the
 [LICENSE.txt][] file for more information.
 
+[lang]: https://img.shields.io/github/languages/top/matchtags/matchtags.svg
+[license badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [LICENSE.txt]: https://github.com/matchtags/MatchTags/blob/master/LICENSE.txt
+[Maintain badge]: https://img.shields.io/maintenance/yes/2019.svg
 [MatchTags]: https://github.com/matchtags/MatchTags
-
-
+[pull request]: https://help.github.com/articles/using-pull-requests
